@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelApp.Views.BookingDetailPage"
+             Title="Chi tiết đặt phòng">
+
+    <!-- Two column layout: left = Booking info or Invoice, right = Room details -->
+    <Grid Padding="12" RowDefinitions="*,Auto" ColumnDefinitions="*,*">
+        <ScrollView Grid.Row="0" Grid.ColumnSpan="2">
+            <Grid ColumnDefinitions="*,*" RowSpacing="12" ColumnSpacing="12" Padding="4">
+
+                <!-- Booking info column (left) - visible when not CheckedOut -->
+                <Frame Grid.Column="0"
+                       Padding="12"
+                       CornerRadius="8"
+                       BorderColor="DarkGoldenrod"
+                       BackgroundColor="Transparent"
+                       IsVisible="{Binding IsBookingSectionVisible}">
+                    <VerticalStackLayout Spacing="8">
+                        <Label Text="Thông tin đặt phòng" FontSize="16" FontAttributes="Bold" />
+                        <Label Text="{Binding Booking.Customer.FullName, StringFormat='Tên khách: {0}'}" />
+                        <Label Text="{Binding Booking.Room.RoomNumber, StringFormat='Phòng số: {0}'}" />
+                        <Label Text="{Binding Booking.CheckInDate, StringFormat='Nhận: {0:dd/MM/yyyy HH:mm}'}" />
+                        <Label Text="{Binding Booking.CheckOutDate, StringFormat='Trả: {0:dd/MM/yyyy HH:mm}'}" />
+                        <Label Text="{Binding EstimatedCost, StringFormat='Giá phòng dự kiến: {0:N0} VND'}" />
+                        <Label Text="{Binding Booking.BookingStatus, StringFormat='Trạng thái đặt: {0}'}" />
+                        <Label Text="{Binding Booking.DepositAmount, StringFormat='Đặt cọc: {0:N0} VND'}" />
+                        
+                        <!-- Cancellation info -->
+                        <VerticalStackLayout Spacing="2" IsVisible="{Binding IsCancelled}">
+                            <Label Text="Thông tin hủy" FontAttributes="Bold" />
+                            <Label Text="{Binding CancelledByDisplay, StringFormat='Người hủy: {0}'}" />
+                            <Label Text="{Binding CancelledAtDisplay, StringFormat='Thời gian hủy: {0}'}" />
+                        </VerticalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Invoice column (left) - visible when CheckedOut -->
+                <Frame Grid.Column="0"
+                       Padding="12"
+                       CornerRadius="8"
+                       BorderColor="DarkGoldenrod"
+                       BackgroundColor="Transparent"
+                       IsVisible="{Binding IsInvoiceSectionVisible}">
+                    <VerticalStackLayout Spacing="8">
+                        <Label Text="Hóa đơn" FontSize="16" FontAttributes="Bold" />
+                        <CollectionView ItemsSource="{Binding PaymentItems}">
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Padding="6" ColumnDefinitions="*,Auto">
+                                        <Label Text="{Binding Description}" />
+                                        <Label Grid.Column="1" Text="{Binding Amount, StringFormat='{0:N0} VND'}" HorizontalOptions="End" />
+                                    </Grid>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+
+                        <BoxView HeightRequest="1" Color="LightGray" />
+
+                        <Label Text="{Binding InvoiceSubtotalDisplay}" />
+                        <Label Text="{Binding InvoiceTaxDisplay}" />
+                        <Label Text="{Binding InvoiceTotalDisplay}" FontAttributes="Bold" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Room details column (right) -->
+                <Frame Grid.Column="1" Padding="12" CornerRadius="8" BorderColor="DodgerBlue" BackgroundColor="Transparent">
+                    <VerticalStackLayout Spacing="8">
+                        <Label Text="Thông tin phòng" FontSize="16" FontAttributes="Bold" />
+                        <Label Text="Phòng số" FontSize="12" />
+                        <Label Text="{Binding Booking.Room.RoomNumber}" FontSize="18" FontAttributes="Bold" TextColor="DodgerBlue" />
+                        <Label Text="Loại phòng" FontSize="12" />
+                        <Label Text="{Binding Booking.Room.RoomType.Name}" FontSize="16" TextColor="DarkOrange" />
+                        <Label Text="Trạng thái" FontSize="12" />
+                        <Label Text="{Binding Booking.Room.Status}" FontSize="14" TextColor="Crimson" />
+
+                        <BoxView HeightRequest="1" Color="LightGray" Margin="0,6" />
+
+                        <Label Text="Chi tiết phòng" FontSize="14" FontAttributes="Bold" />
+                        <Label Text="{Binding Booking.Room.RoomType.Description}" TextColor="Gray" />
+                        <Label Text="{Binding Booking.Room.RoomType.BasePrice, StringFormat='Giá: {0:N0} đ'}" />
+                        <Label Text="{Binding Booking.Room.RoomType.Capacity, StringFormat='Sức chứa: {0} người'}" />
+
+                        <!-- Maintenance note (only when room is Maintenance) -->
+                        <Label Text="Đang bảo trì" TextColor="OrangeRed" FontAttributes="Bold" IsVisible="{Binding IsMaintenance}" />
+                    </VerticalStackLayout>
+                </Frame>
+
+            </Grid>
+        </ScrollView>
+
+        <Button Grid.Row="1" Grid.ColumnSpan="2" Text="Quay lại" BackgroundColor="DodgerBlue" TextColor="White" Clicked="OnBackClicked" Margin="12" />
+    </Grid>
+</ContentPage>

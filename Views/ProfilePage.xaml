@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelApp.Views.ProfilePage"
+             Title="Profile">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="12">
+            <Label Text="Full name" FontAttributes="Bold"/>
+            <Entry Text="{Binding CurrentUser.FullName}" />
+            <Label Text="Username" FontAttributes="Bold" />
+            <Label Text="{Binding CurrentUser.Username}" />
+            <Label Text="Role" FontAttributes="Bold"/>
+            <Label Text="{Binding CurrentUser.Role.RoleName}" />
+            <Button Text="Save profile" Command="{Binding SaveProfileCommand}" />
+
+            <BoxView HeightRequest="1" BackgroundColor="LightGray" />
+
+            <Label Text="Change password" FontAttributes="Bold" />
+            <Entry Placeholder="Current password" IsPassword="True" Text="{Binding CurrentPassword}" />
+            <Entry Placeholder="New password" IsPassword="True" Text="{Binding NewPassword}" />
+            <Button Text="Change password" Command="{Binding ChangePasswordCommand}" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

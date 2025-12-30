@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelApp.Views.RoomDetailPage"
+             Title="Chi tiết phòng">
+
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <!-- Nội dung chi tiết -->
+            <RowDefinition Height="Auto"/>
+            <!-- Nút quay lại -->
+        </Grid.RowDefinitions>
+
+        <!-- Nội dung chi tiết phòng -->
+        <ScrollView Grid.Row="0">
+            <Grid Padding="20" RowSpacing="15" ColumnSpacing="15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Số phòng -->
+                <Frame Grid.Row="0" Grid.Column="0" BorderColor="DodgerBlue" Padding="10">
+                    <VerticalStackLayout>
+                        <Label Text="Phòng số" FontAttributes="None" FontSize="12" HorizontalOptions="Start"/>
+                        <Label Text="{Binding Room.RoomNumber}" Margin="0,5,0,5" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center" TextColor="DodgerBlue"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Tầng -->
+                <Frame Grid.Row="0" Grid.Column="1" BorderColor="ForestGreen" Padding="10">
+                    <VerticalStackLayout>
+                        <Label Text="Tầng" FontAttributes="None" FontSize="12" HorizontalOptions="Start"/>
+                        <Label Text="{Binding Room.Floor}" Margin="0,5,0,5" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center" TextColor="ForestGreen"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Loại phòng -->
+                <Frame Grid.Row="1" Grid.Column="0" BorderColor="DarkOrange" Padding="10">
+                    <VerticalStackLayout>
+                        <Label Text="Loại phòng" FontAttributes="None" FontSize="12" HorizontalOptions="Start"/>
+                        <Label Text="{Binding Room.RoomType.Name}" Margin="0,5,0,5" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center" TextColor="DarkOrange"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Trạng thái -->
+                <Frame Grid.Row="1" Grid.Column="1" BorderColor="Crimson" Padding="10">
+                    <VerticalStackLayout>
+                        <Label Text="Trạng thái" FontAttributes="None" FontSize="12" HorizontalOptions="Start"/>
+                        <Label Text="{Binding Room.Status}" Margin="0,5,0,5" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center" TextColor="Crimson"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Giá phòng -->
+                <Frame Grid.Row="2" Grid.Column="0" BorderColor="Purple" Padding="10">
+                    <VerticalStackLayout>
+                        <Label Text="Giá phòng" FontAttributes="None" FontSize="12" HorizontalOptions="Start"/>
+                        <Label Text="{Binding Room.RoomType.BasePrice, StringFormat='{}{0:N0} đ'}" Margin="0,5,0,5" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center" TextColor="Purple"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Sức chứa -->
+                <Frame Grid.Row="2" Grid.Column="1" BorderColor="Teal" Padding="10">
+                    <VerticalStackLayout>
+                        <Label Text="Sức chứa" FontAttributes="None" FontSize="12" HorizontalOptions="Start"/>
+                        <Label Text="{Binding Room.RoomType.Capacity, StringFormat='{}{0:N0} người'}" Margin="0,5,0,5" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center" TextColor="Teal"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Mô tả -->
+                <Frame Grid.Row="3" Grid.ColumnSpan="2" BorderColor="Gray" Padding="10">
+                    <VerticalStackLayout>
+                        <Label Text="Mô tả" FontAttributes="None" FontSize="12" HorizontalOptions="Start"/>
+                        <Label Text="{Binding Room.RoomType.Description}" Margin="0,5,0,5" FontAttributes="None" FontSize="16" HorizontalOptions="Center" TextColor="Gray"/>
+                        <!-- Maintenance note: only visible when Room.Status == 'Maintenance' -->
+                        <Label x:Name="MaintenanceNote" Text="Đang bảo trì..." Margin="0,6,0,0" FontAttributes="Italic" TextColor="OrangeRed" HorizontalOptions="Center" IsVisible="False">
+                            <Label.Triggers>
+                                <DataTrigger TargetType="Label" Binding="{Binding Room.Status}" Value="Maintenance">
+                                    <Setter Property="IsVisible" Value="True" />
+                                </DataTrigger>
+                            </Label.Triggers>
+                        </Label>
+                    </VerticalStackLayout>
+                </Frame>
+            </Grid>
+        </ScrollView>
+
+        <!-- Nút quay lại cố định dưới cùng -->
+        <Button Grid.Row="1"
+                Text="Quay lại trang quản lý"
+                BackgroundColor="DodgerBlue"
+                TextColor="White"
+                FontAttributes="Bold"
+                Margin="20"
+                Clicked="OnBackClicked"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,135 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-ios
+build_property.TargetFramework = net9.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HotelApp
+build_property.ProjectDir = C:\.net_on_school\HotelApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/.net_on_school/HotelApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/.net_on_school/HotelApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/.net_on_school/HotelApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/.net_on_school/HotelApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/.net_on_school/HotelApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/.net_on_school/HotelApp/Views/BookingDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Views.BookingDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BookingDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BookingDetailPage.xaml
+
+[C:/.net_on_school/HotelApp/Views/BookingManagementPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Views.BookingManagementPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BookingManagementPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BookingManagementPage.xaml
+
+[C:/.net_on_school/HotelApp/Views/BookingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Views.BookingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BookingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BookingPage.xaml
+
+[C:/.net_on_school/HotelApp/Views/CheckInPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Views.CheckInPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CheckInPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CheckInPage.xaml
+
+[C:/.net_on_school/HotelApp/Views/CheckOutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Views.CheckOutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CheckOutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CheckOutPage.xaml
+
+[C:/.net_on_school/HotelApp/Views/InvoicePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Views.InvoicePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\InvoicePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\InvoicePage.xaml
+
+[C:/.net_on_school/HotelApp/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[C:/.net_on_school/HotelApp/Views/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Views.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProfilePage.xaml
+
+[C:/.net_on_school/HotelApp/Views/RoomDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Views.RoomDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RoomDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RoomDetailPage.xaml
+
+[C:/.net_on_school/HotelApp/Views/RoomEditPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Views.RoomEditPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RoomEditPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RoomEditPage.xaml
+
+[C:/.net_on_school/HotelApp/Views/RoomListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Views.RoomListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RoomListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RoomListPage.xaml
+
+[C:/.net_on_school/HotelApp/Views/RoomUpdatePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Views.RoomUpdatePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RoomUpdatePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RoomUpdatePage.xaml
+
+[C:/.net_on_school/HotelApp/Views/UserManagementPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HotelApp.Views.UserManagementPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserManagementPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserManagementPage.xaml

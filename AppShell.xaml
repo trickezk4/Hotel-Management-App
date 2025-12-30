@@ -1,0 +1,33 @@
+<Shell
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:HotelApp.Views"
+    x:Class="HotelApp.AppShell"
+    FlyoutBehavior="Flyout">
+
+    <!-- Login page (initial) as a FlyoutItem -->
+    <FlyoutItem x:Name="LoginItem" Title="Login" Route="login">
+        <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" />
+    </FlyoutItem>
+
+    <!-- Rooms (main app area) -->
+    <FlyoutItem x:Name="RoomsItem" Title="Rooms" Route="rooms">
+        <ShellContent ContentTemplate="{DataTemplate views:RoomListPage}" />
+    </FlyoutItem>
+
+    <!-- Bookings (receptionist/admin) -->
+    <FlyoutItem x:Name="BookingsItem" Title="Bookings" Route="bookings">
+        <ShellContent ContentTemplate="{DataTemplate views:BookingManagementPage}" />
+    </FlyoutItem>
+
+    <!-- Admin user management -->
+    <FlyoutItem x:Name="UsersItem" Title="Users" Route="users">
+        <ShellContent ContentTemplate="{DataTemplate views:UserManagementPage}" />
+    </FlyoutItem>
+
+    <!-- Profile page (update / change password) -->
+    <FlyoutItem x:Name="ProfileItem" Title="Profile" Route="profile">
+        <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}" />
+    </FlyoutItem>
+
+</Shell>

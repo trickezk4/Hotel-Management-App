@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Views/CheckInPage.xaml -->
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelApp.Views.CheckInPage"
+             Title="Nhận/Trả phòng">
+    <Grid RowDefinitions="Auto,*">
+        <!-- Tìm kiếm đơn giản -->
+        <StackLayout Padding="10" Spacing="8">
+            <SearchBar Placeholder="Tìm theo tên/SDT/phòng..." Text="{Binding SearchText}" />
+        </StackLayout>
+
+        <!-- Danh sách lưu trú -->
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Stays}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="8">
+                        <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto">
+                            <Label Text="{Binding Customer.FullName}" FontAttributes="Bold" />
+                            <Label Grid.Row="1" Text="{Binding Room.RoomNumber}" />
+                            <HorizontalStackLayout Grid.Column="1">
+                                <Button Text="Check-out"
+                                        Command="{Binding BindingContext.CheckOutCommand, Source={x:Reference Name=CheckInPage}}"
+                                        CommandParameter="{Binding}" />
+                            </HorizontalStackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

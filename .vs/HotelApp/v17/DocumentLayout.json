@@ -1,0 +1,1087 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.net_on_school\\HotelApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\bookingdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\bookingdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\viewmodels\\roomeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:viewmodels\\roomeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\viewmodels\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:viewmodels\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\viewmodels\\bookingdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:viewmodels\\bookingdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\viewmodels\\checkinviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:viewmodels\\checkinviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\helpers\\icommandextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:helpers\\icommandextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\data\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:data\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\services\\stayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:services\\stayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\models\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:models\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\models\\serviceusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:models\\serviceusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\models\\stay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:models\\stay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\viewmodels\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:viewmodels\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\viewmodels\\roomdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:viewmodels\\roomdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\viewmodels\\roomlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:viewmodels\\roomlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\viewmodels\\usermanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:viewmodels\\usermanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\viewmodels\\roomupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:viewmodels\\roomupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\usermanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\usermanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\usermanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\usermanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\invoicepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\invoicepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\invoicepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\invoicepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\checkoutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\checkoutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\checkoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\checkoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\checkinpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\checkinpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\checkinpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\checkinpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\bookingdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\bookingdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\bookingmanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\bookingmanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\bookingmanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\bookingmanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\roomupdatepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\roomupdatepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\roomupdatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\roomupdatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\roomeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\roomeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\roomeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\roomeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\roomdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\roomdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\roomdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\roomdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\roomlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\roomlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\roomlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\roomlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|c:\\.net_on_school\\hotelapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B740411-CA4B-4C3B-81D6-C544EF722255}|HotelApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\.net_on_school\\HotelApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 267,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingDetailPage.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\BookingDetailPage.xaml",
+              "RelativeDocumentMoniker": "Views\\BookingDetailPage.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\BookingDetailPage.xaml",
+              "RelativeToolTip": "Views\\BookingDetailPage.xaml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAACsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-24T14:54:27.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T16:27:25.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomEditViewModel.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\ViewModels\\RoomEditViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RoomEditViewModel.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\ViewModels\\RoomEditViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RoomEditViewModel.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAuwNkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T11:53:25.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAIkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:02:34.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingViewModel.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\ViewModels\\BookingViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BookingViewModel.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\ViewModels\\BookingViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BookingViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T08:49:04.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingDetailViewModel.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\ViewModels\\BookingDetailViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BookingDetailViewModel.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\ViewModels\\BookingDetailViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BookingDetailViewModel.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAswBUBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:53:52.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CheckInViewModel.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\ViewModels\\CheckInViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CheckInViewModel.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\ViewModels\\CheckInViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CheckInViewModel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA0wDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T21:29:48.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CheckOutViewModel.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\ViewModels\\CheckOutViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CheckOutViewModel.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\ViewModels\\CheckOutViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CheckOutViewModel.cs",
+              "ViewState": "AgIAAHABAAAAAAAAAAAuwJYBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T19:12:42.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICommandExtensions.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Helpers\\ICommandExtensions.cs",
+              "RelativeDocumentMoniker": "Helpers\\ICommandExtensions.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Helpers\\ICommandExtensions.cs",
+              "RelativeToolTip": "Helpers\\ICommandExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T10:39:53.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HotelDbContext.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Data\\HotelDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\HotelDbContext.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Data\\HotelDbContext.cs",
+              "RelativeToolTip": "Data\\HotelDbContext.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAiwHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T11:53:17.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CurrentUserService.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Services\\CurrentUserService.cs",
+              "RelativeDocumentMoniker": "Services\\CurrentUserService.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Services\\CurrentUserService.cs",
+              "RelativeToolTip": "Services\\CurrentUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:00:53.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Services\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "Services\\InvoiceService.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Services\\InvoiceService.cs",
+              "RelativeToolTip": "Services\\InvoiceService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAIwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T19:01:12.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Services\\RoomService.cs",
+              "RelativeDocumentMoniker": "Services\\RoomService.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Services\\RoomService.cs",
+              "RelativeToolTip": "Services\\RoomService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAADwv2MAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T20:23:00.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StayService.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Services\\StayService.cs",
+              "RelativeDocumentMoniker": "Services\\StayService.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Services\\StayService.cs",
+              "RelativeToolTip": "Services\\StayService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T19:42:42.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "Services\\BookingService.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Services\\BookingService.cs",
+              "RelativeToolTip": "Services\\BookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T08:49:37.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Models\\Room.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Models\\Room.cs",
+              "RelativeToolTip": "Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T11:45:14.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\Booking.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Models\\Booking.cs",
+              "RelativeToolTip": "Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T08:49:51.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T16:31:01.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Models\\Invoice.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Models\\Invoice.cs",
+              "RelativeToolTip": "Models\\Invoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T16:29:52.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T16:30:16.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T18:50:38.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RoomType.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Models\\RoomType.cs",
+              "RelativeDocumentMoniker": "Models\\RoomType.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Models\\RoomType.cs",
+              "RelativeToolTip": "Models\\RoomType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T11:46:31.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "Models\\Service.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Models\\Service.cs",
+              "RelativeToolTip": "Models\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T16:30:28.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ServiceUsage.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Models\\ServiceUsage.cs",
+              "RelativeDocumentMoniker": "Models\\ServiceUsage.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Models\\ServiceUsage.cs",
+              "RelativeToolTip": "Models\\ServiceUsage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T16:30:34.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Stay.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Models\\Stay.cs",
+              "RelativeDocumentMoniker": "Models\\Stay.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Models\\Stay.cs",
+              "RelativeToolTip": "Models\\Stay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T09:16:43.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T18:51:29.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InvoiceViewModel.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\ViewModels\\InvoiceViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\InvoiceViewModel.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\ViewModels\\InvoiceViewModel.cs",
+              "RelativeToolTip": "ViewModels\\InvoiceViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA7wDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T16:25:56.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:03:23.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAYwKYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:06:14.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RoomDetailViewModel.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\ViewModels\\RoomDetailViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RoomDetailViewModel.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\ViewModels\\RoomDetailViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RoomDetailViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA+wCgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T21:30:08.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RoomListViewModel.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\ViewModels\\RoomListViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RoomListViewModel.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\ViewModels\\RoomListViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RoomListViewModel.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T14:11:13.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserManagementViewModel.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\ViewModels\\UserManagementViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\UserManagementViewModel.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\ViewModels\\UserManagementViewModel.cs",
+              "RelativeToolTip": "ViewModels\\UserManagementViewModel.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAiwHcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:03:43.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RoomUpdateViewModel.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\ViewModels\\RoomUpdateViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RoomUpdateViewModel.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\ViewModels\\RoomUpdateViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RoomUpdateViewModel.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAcwMQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T17:00:49.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserManagementPage.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\UserManagementPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\UserManagementPage.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\UserManagementPage.xaml.cs",
+              "RelativeToolTip": "Views\\UserManagementPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:10:01.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserManagementPage.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\UserManagementPage.xaml",
+              "RelativeDocumentMoniker": "Views\\UserManagementPage.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\UserManagementPage.xaml",
+              "RelativeToolTip": "Views\\UserManagementPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-22T19:04:30.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "InvoicePage.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\InvoicePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\InvoicePage.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\InvoicePage.xaml.cs",
+              "RelativeToolTip": "Views\\InvoicePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T17:33:03.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "InvoicePage.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\InvoicePage.xaml",
+              "RelativeDocumentMoniker": "Views\\InvoicePage.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\InvoicePage.xaml",
+              "RelativeToolTip": "Views\\InvoicePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-21T17:33:04.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CheckOutPage.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\CheckOutPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\CheckOutPage.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\CheckOutPage.xaml.cs",
+              "RelativeToolTip": "Views\\CheckOutPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T19:14:53.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CheckOutPage.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\CheckOutPage.xaml",
+              "RelativeDocumentMoniker": "Views\\CheckOutPage.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\CheckOutPage.xaml",
+              "RelativeToolTip": "Views\\CheckOutPage.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwEgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-24T19:14:02.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CheckInPage.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\CheckInPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\CheckInPage.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\CheckInPage.xaml.cs",
+              "RelativeToolTip": "Views\\CheckInPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T19:14:52.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CheckInPage.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\CheckInPage.xaml",
+              "RelativeDocumentMoniker": "Views\\CheckInPage.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\CheckInPage.xaml",
+              "RelativeToolTip": "Views\\CheckInPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-25T16:09:55.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BookingDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\BookingDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\BookingDetailPage.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\BookingDetailPage.xaml.cs",
+              "RelativeToolTip": "Views\\BookingDetailPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:54:50.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "BookingManagementPage.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\BookingManagementPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\BookingManagementPage.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\BookingManagementPage.xaml.cs",
+              "RelativeToolTip": "Views\\BookingManagementPage.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T09:13:51.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "BookingManagementPage.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\BookingManagementPage.xaml",
+              "RelativeDocumentMoniker": "Views\\BookingManagementPage.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\BookingManagementPage.xaml",
+              "RelativeToolTip": "Views\\BookingManagementPage.xaml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAkwJYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-23T09:13:10.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "BookingPage.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\BookingPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\BookingPage.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\BookingPage.xaml.cs",
+              "RelativeToolTip": "Views\\BookingPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T16:06:39.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BookingPage.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\BookingPage.xaml",
+              "RelativeDocumentMoniker": "Views\\BookingPage.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\BookingPage.xaml",
+              "RelativeToolTip": "Views\\BookingPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-23T08:57:26.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "RoomUpdatePage.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\RoomUpdatePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RoomUpdatePage.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\RoomUpdatePage.xaml.cs",
+              "RelativeToolTip": "Views\\RoomUpdatePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T17:12:28.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "RoomUpdatePage.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\RoomUpdatePage.xaml",
+              "RelativeDocumentMoniker": "Views\\RoomUpdatePage.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\RoomUpdatePage.xaml",
+              "RelativeToolTip": "Views\\RoomUpdatePage.xaml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwDsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-22T17:12:04.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RoomEditPage.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\RoomEditPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RoomEditPage.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\RoomEditPage.xaml.cs",
+              "RelativeToolTip": "Views\\RoomEditPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T11:46:49.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RoomEditPage.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\RoomEditPage.xaml",
+              "RelativeDocumentMoniker": "Views\\RoomEditPage.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\RoomEditPage.xaml",
+              "RelativeToolTip": "Views\\RoomEditPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-21T11:33:24.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "RoomDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\RoomDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RoomDetailPage.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\RoomDetailPage.xaml.cs",
+              "RelativeToolTip": "Views\\RoomDetailPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T21:26:51.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RoomDetailPage.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\RoomDetailPage.xaml",
+              "RelativeDocumentMoniker": "Views\\RoomDetailPage.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\RoomDetailPage.xaml",
+              "RelativeToolTip": "Views\\RoomDetailPage.xaml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAkwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-21T17:33:27.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RoomListPage.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\RoomListPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RoomListPage.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\RoomListPage.xaml.cs",
+              "RelativeToolTip": "Views\\RoomListPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T21:33:34.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "RoomListPage.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\RoomListPage.xaml",
+              "RelativeDocumentMoniker": "Views\\RoomListPage.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\RoomListPage.xaml",
+              "RelativeToolTip": "Views\\RoomListPage.xaml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-21T14:10:07.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "Views\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:08:51.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "Views\\ProfilePage.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\ProfilePage.xaml",
+              "RelativeToolTip": "Views\\ProfilePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-22T19:04:12.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:08:24.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-22T19:04:02.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T11:27:34.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-25T16:00:32.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-22T19:27:19.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAYwHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T21:22:58.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:13:35.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-25T15:58:24.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\.net_on_school\\HotelApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\.net_on_school\\HotelApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAD8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T21:30:28.942Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 133,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

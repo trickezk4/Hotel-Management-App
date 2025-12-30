@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelApp.Views.BookingPage"
+             Title="Đặt phòng">
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="12">
+            <!-- Nhập thông tin khách -->
+            <Entry Placeholder="Tên khách" Text="{Binding CustomerName}" />
+            <Entry Placeholder="Số điện thoại" Text="{Binding Phone}" Keyboard="Telephone" />
+
+            <!-- Chọn phòng -->
+            <Picker Title="Phòng" ItemsSource="{Binding AvailableRooms}"
+                    ItemDisplayBinding="{Binding RoomNumber}"
+                    SelectedItem="{Binding SelectedRoom}" />
+
+            <!-- Ngày đến/đi -->
+            <DatePicker Date="{Binding CheckInDate}" />
+            <DatePicker Date="{Binding CheckOutDate}" />
+
+            <!-- Đặt cọc -->
+            <Entry Placeholder="Đặt cọc (VND)" Keyboard="Numeric" Text="{Binding DepositAmount}" />
+
+            <!-- Trạng thái Booking -->
+            <Picker Title="Trạng thái" ItemsSource="{Binding BookingStatuses}" SelectedItem="{Binding SelectedStatus}" />
+
+            <!-- Nút xử lý -->
+            <Button Text="Kiểm tra trùng lịch" Command="{Binding ValidateAvailabilityCommand}" />
+            <Button Text="Lưu đặt phòng" Command="{Binding SaveBookingCommand}" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

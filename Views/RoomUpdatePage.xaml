@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelApp.Views.RoomUpdatePage"
+             Title="Chỉnh sửa phòng">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="12">
+
+            <!-- Số phòng -->
+            <Label Text="Số phòng"/>
+            <Entry Placeholder="Số phòng"
+                   Text="{Binding RoomNumber, Mode=TwoWay}" />
+
+            <!-- Loại phòng -->
+            <Picker Title="Loại phòng"
+                    ItemsSource="{Binding RoomTypes}"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedItem="{Binding SelectedRoomType, Mode=TwoWay}" />
+
+            <!-- Tầng -->
+            <Label Text="Tầng (1-100)" />
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Entry Text="{Binding FloorText, Mode=TwoWay}"
+                       Keyboard="Numeric"
+                       WidthRequest="80"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center" />
+
+                <Stepper Minimum="1"
+                         Maximum="100"
+                         Increment="1"
+                         Value="{Binding FloorValue, Mode=TwoWay}" />
+            </HorizontalStackLayout>
+
+            <!-- Trạng thái -->
+            <Picker Title="Trạng thái"
+                    ItemsSource="{Binding RoomStatuses}"
+                    SelectedItem="{Binding SelectedStatus, Mode=TwoWay}" />
+
+            <!-- Ghi chú -->
+            <Editor Placeholder="Ghi chú"
+                    AutoSize="TextChanges"
+                    Text="{Binding Room.Notes, Mode=TwoWay}" />
+
+            <!-- Nút lưu -->
+            <Button Text="Lưu"
+                    Command="{Binding SaveCommand}"
+                    BackgroundColor="{DynamicResource PrimaryColor}"
+                    TextColor="White" />
+
+            <!-- Nút hủy -->
+            <Button Text="Hủy"
+                    Command="{Binding CancelCommand}"
+                    BackgroundColor="{DynamicResource SecondaryColor}"
+                    TextColor="White" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

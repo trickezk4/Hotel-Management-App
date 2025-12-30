@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="HotelApp.Views.BookingManagementPage"
+    x:Name="Root"
+    Title="Quản lý đặt phòng">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="12" Spacing="14">
+
+            <!-- New booking form -->
+            <Frame Padding="12" CornerRadius="6" BorderColor="LightGray">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Tạo đặt phòng mới" FontAttributes="Bold" FontSize="16" />
+
+                    <Entry Placeholder="Tên khách" Text="{Binding CustomerName}" />
+                    <Entry Placeholder="Số điện thoại" Text="{Binding Phone}" Keyboard="Telephone" />
+
+                    <Label Text="Phòng" />
+                    <Picker
+                        Title="Chọn phòng"
+                        ItemsSource="{Binding AvailableRooms}"
+                        ItemDisplayBinding="{Binding RoomNumber}"
+                        SelectedItem="{Binding SelectedRoom}" />
+
+                    <!-- Check-in / Check-out with Date next to Time and vertical divider -->
+                    <Grid ColumnSpacing="8" RowSpacing="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" /> <!-- divider -->
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Check-in column (Date + Time adjacent) -->
+                        <VerticalStackLayout Grid.Column="0">
+                            <Label Text="Check-in" />
+                            <HorizontalStackLayout Spacing="6" VerticalOptions="Center">
+                                <DatePicker Date="{Binding CheckInDate}" />
+                                <TimePicker Time="{Binding CheckInTime}" />
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+
+                        <!-- vertical divider -->
+                        <BoxView Grid.Column="1" WidthRequest="1" BackgroundColor="LightGray" Margin="8,0" />
+
+                        <!-- Check-out column (Date + Time adjacent) -->
+                        <VerticalStackLayout Grid.Column="2">
+                            <Label Text="Check-out" />
+                            <HorizontalStackLayout Spacing="6" VerticalOptions="Center">
+                                <DatePicker Date="{Binding CheckOutDate}" />
+                                <TimePicker Time="{Binding CheckOutTime}" />
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+
+                        <!-- placeholder column for spacing if needed -->
+                    </Grid>
+
+                    <Entry Placeholder="Đặt cọc (VND)" Keyboard="Numeric" Text="{Binding DepositAmount}" />
+
+                    <Label Text="{Binding EstimatedCost, StringFormat='Tổng ước tính: {0:N0} VND'}" FontAttributes="Bold" />
+
+                    <HorizontalStackLayout Spacing="8">
+                        <Button Text="Kiểm tra trùng lịch" Command="{Binding ValidateAvailabilityCommand}" />
+                        <Button Text="Lưu đặt phòng" Command="{Binding SaveBookingCommand}" />
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Existing bookings header -->
+            <Grid ColumnSpacing="8" Padding="0,4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Danh sách đặt phòng" FontAttributes="Bold" FontSize="16" VerticalOptions="Center" />
+                <Button Grid.Column="1" x:Name="ReloadButton" Text="Tải lại" Clicked="OnReloadClicked" HeightRequest="36" VerticalOptions="Center" Padding="12,0" CornerRadius="6" />
+            </Grid>
+
+            <!-- Bookings list -->
+            <CollectionView ItemsSource="{Binding Bookings}" SelectionMode="None">
+                <!-- Add ItemsLayout with ItemSpacing to increase separation between items -->
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="5" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <!-- Increased outer margin to add vertical spacing between items -->
+                        <Frame Padding="10" Margin="12" BorderColor="LightGray" CornerRadius="6">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+
+                                <VerticalStackLayout Grid.Row="0" Grid.Column="0" Spacing="4">
+                                    <Label Text="Tên khách hàng:" FontAttributes="Bold" FontSize="12" />
+                                    <Label Text="{Binding Customer.FullName}" />
+                                    <Label Text="Phòng số:" FontAttributes="Bold" FontSize="12" />
+                                    <Label Text="{Binding Room.RoomNumber}" />
+                                    <Label Text="{Binding CheckInDate, StringFormat='Nhận: {0:dd/MM/yyyy HH:mm}'}" />
+                                    <Label Text="{Binding CheckOutDate, StringFormat='Trả: {0:dd/MM/yyyy HH:mm}'}" />
+                                    <Label Text="{Binding BookingStatus}" />
+                                </VerticalStackLayout>
+
+                                <VerticalStackLayout Grid.Row="0" Grid.Column="1" Spacing="6" HorizontalOptions="End">
+                                    <Button
+                                        Text="Chi tiết"
+                                        Command="{Binding Source={x:Reference Root}, Path=BindingContext.ViewBookingCommand}"
+                                        CommandParameter="{Binding .}" />
+                                    <Button
+                                        Text="Check-in"
+                                        Command="{Binding Source={x:Reference Root}, Path=BindingContext.CheckInCommand}"
+                                        CommandParameter="{Binding .}" />
+                                    <Button
+                                        Text="Hủy"
+                                        BackgroundColor="LightCoral"
+                                        TextColor="White"
+                                        Command="{Binding Source={x:Reference Root}, Path=BindingContext.CancelBookingCommand}"
+                                        CommandParameter="{Binding .}" />
+
+                                    <!-- New Check-out button: hidden by default, shown only when BookingStatus == 'CheckedIn' -->
+                                    <Button Text="Trả phòng"
+                                            Command="{Binding Source={x:Reference Root}, Path=BindingContext.CheckOutCommand}"
+                                            CommandParameter="{Binding .}"
+                                            IsVisible="False">
+                                        <Button.Triggers>
+                                            <DataTrigger TargetType="Button" Binding="{Binding BookingStatus}" Value="CheckedIn">
+                                                <Setter Property="IsVisible" Value="True" />
+                                            </DataTrigger>
+                                        </Button.Triggers>
+                                    </Button>
+                                </VerticalStackLayout>
+
+                                <Label Grid.Row="1" Grid.Column="0" Text="{Binding DepositAmount, StringFormat='Đặt cọc: {0:N0} VND'}" FontSize="12" />
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <BoxView HeightRequest="24" Color="Transparent" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

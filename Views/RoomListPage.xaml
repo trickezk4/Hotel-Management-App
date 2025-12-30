@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:HotelApp.ViewModels"
+             x:Class="HotelApp.Views.RoomListPage"
+             Title="Quản lý phòng">
+    <!-- Thanh công cụ: làm mới và thêm -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Làm mới" Command="{Binding RefreshCommand}" />
+        <ToolbarItem Text="Thêm phòng" Command="{Binding AddRoomCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <Grid RowDefinitions="Auto,*">
+        <!-- Khu vực filter -->
+        <HorizontalStackLayout Grid.Row="0" 
+                               Padding="10" 
+                               Spacing="8">
+            <Picker Title="Loại phòng" 
+                    ItemsSource="{Binding RoomTypes}"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedItem="{Binding SelectedRoomType}" />
+            <Picker Title="Trạng thái" 
+                    ItemsSource="{Binding RoomStatuses}"
+                    SelectedItem="{Binding SelectedStatus}" />
+            <SearchBar Placeholder="Tìm số phòng..." Text="{Binding SearchText}">
+                <SearchBar.Behaviors>
+                    <!-- Khi thay đổi text, có thể trigger load dữ liệu (tuỳ chọn) -->
+                </SearchBar.Behaviors>
+            </SearchBar>
+            <Button Text="Lọc" Command="{Binding RefreshCommand}" />
+        </HorizontalStackLayout>
+
+        <!-- Danh sách phòng -->
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Rooms}" Margin="10,0">
+            <CollectionView.ItemsLayout>
+                <!-- spacing giữa các item -->
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="5" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <!-- Mỗi phòng hiển thị trong Frame để tạo khoảng cách -->
+                    <Frame Padding="10" BorderColor="#ddd" CornerRadius="6">
+                        <Grid ColumnDefinitions="2*,Auto" VerticalOptions="Center">
+
+                            <!-- Thông tin phòng bên trái -->
+                            <VerticalStackLayout Grid.Column="0" Spacing="4">
+                                <Label Text="{Binding RoomNumber, StringFormat='Phòng {0}'}"
+                               FontSize="18" />
+                                <Label Text="{Binding Floor, StringFormat='Tầng {0}'}"
+                               FontSize="14" TextColor="Gray" />
+                                <Label Text="{Binding Status}" FontSize="14" TextColor="DarkGray" />
+                            </VerticalStackLayout>
+
+                            <!-- Các nút hành động bên phải -->
+                            <HorizontalStackLayout Grid.Column="1"
+                                           Spacing="6"
+                                           VerticalOptions="Center"
+                                           HorizontalOptions="End">
+                                <Button Text="Chi tiết"
+                                FontSize="12"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:RoomListViewModel}}, Path=ViewRoomCommand}"
+                                CommandParameter="{Binding .}" />
+                                <Button Text="Sửa"
+                                FontSize="12"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:RoomListViewModel}}, Path=EditRoomCommand}"
+                                CommandParameter="{Binding .}" />
+                                <Button Text="Xóa"
+                                FontSize="12"
+                                BackgroundColor="Red"
+                                TextColor="White"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:RoomListViewModel}}, Path=DeleteRoomCommand}"
+                                CommandParameter="{Binding .}" />
+                            </HorizontalStackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

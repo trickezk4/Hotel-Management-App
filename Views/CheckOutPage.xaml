@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelApp.Views.CheckOutPage"
+             Title="Trả phòng">
+
+
+    <Grid RowDefinitions="*,Auto">
+
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Padding="12" Spacing="12">
+                <Label Text="{Binding BookingDisplay}" FontAttributes="Bold" FontSize="16" />
+
+                <Frame BorderColor="LightGray" Padding="10">
+                    <VerticalStackLayout Spacing="8">
+                        <Label Text="Chi phí phát sinh" FontAttributes="Bold" />
+                        <HorizontalStackLayout Spacing="6">
+                            <Entry x:Name="DescEntry" Placeholder="Nội dung" Text="{Binding NewChargeDescription}" HorizontalOptions="FillAndExpand" />
+                            <Entry Placeholder="Số tiền" Keyboard="Numeric" WidthRequest="120" Text="{Binding NewChargeAmount}" />
+                            <Button Text="Thêm" Command="{Binding AddChargeCommand}" />
+                        </HorizontalStackLayout>
+
+                        <CollectionView ItemsSource="{Binding ExtraCharges}">
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid ColumnDefinitions="*,Auto" Padding="4">
+                                        <Label Text="{Binding Description}" />
+                                        <Label Grid.Column="1" Text="{Binding Amount, StringFormat='{0:N0}'}" HorizontalOptions="End" />
+                                    </Grid>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+
+                        <BoxView HeightRequest="1" Color="LightGray" />
+
+                        <!-- Preview / Payment items list -->
+                        <CollectionView ItemsSource="{Binding PaymentItems}" IsVisible="{Binding IsPreviewVisible}">
+                            <CollectionView.Header>
+                                <Label Text="Danh sách thanh toán" FontAttributes="Bold" />
+                            </CollectionView.Header>
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Padding="6" ColumnDefinitions="*,Auto">
+                                        <Label Text="{Binding Description}" />
+                                        <Label Grid.Column="1" Text="{Binding Amount, StringFormat='{0:N0} VND'}" HorizontalOptions="End" />
+                                    </Grid>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+
+                        <Label Text="{Binding SubtotalDisplay}" />
+                        <Label Text="{Binding TaxDisplay}" />
+                        <Label Text="{Binding TotalDisplay}" FontAttributes="Bold" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <HorizontalStackLayout Spacing="8">
+                    <!-- Preview button computes items and shows them; disabled once invoice created -->
+                    <Button Text="Tạo hóa đơn" Command="{Binding CreateInvoiceCommand}" IsEnabled="{Binding IsCreateEnabled}" />
+                    <!-- Confirm actually creates invoice (checkout + create invoice) -->
+                    <Button Text="Xác nhận và tạo" Command="{Binding ConfirmCreateInvoiceCommand}" IsVisible="{Binding IsPreviewVisible}" />
+                    <Button Text="Thanh toán" Command="{Binding PayCommand}" />
+                    <Button Text="Xuất CSV" Command="{Binding ExportCsvCommand}" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Fixed footer row: Back button pinned at bottom -->
+        <Grid Grid.Row="1" Padding="12">
+            <Button Text="Quay lại" Clicked="OnBackClicked" BackgroundColor="DodgerBlue" HorizontalOptions="FillAndExpand" />
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelApp.Views.InvoicePage"
+             Title="Hóa đơn">
+    <Grid RowDefinitions="*,Auto">
+        <!-- Danh sách hạng mục hóa đơn -->
+        <CollectionView ItemsSource="{Binding InvoiceItems}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid ColumnDefinitions="*,Auto" Padding="10">
+                        <Label Text="{Binding Description}" />
+                        <Label Text="{Binding Amount, StringFormat='{0:N0} VND'}" HorizontalTextAlignment="End" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- Tổng kết + thanh toán -->
+        <StackLayout Grid.Row="1" Padding="10" Spacing="8">
+            <Label Text="{Binding Subtotal, StringFormat='Tạm tính: {0:N0} VND'}" />
+            <Label Text="{Binding Tax, StringFormat='Thuế: {0:N0} VND'}" />
+            <Label Text="{Binding Discount, StringFormat='Giảm giá: {0:N0} VND'}" />
+            <Label Text="{Binding Total, StringFormat='Tổng: {0:N0} VND'}" FontAttributes="Bold" />
+            <Picker Title="Phương thức" ItemsSource="{Binding PaymentMethods}" SelectedItem="{Binding SelectedMethod}" />
+            <Button Text="Thanh toán" Command="{Binding PayCommand}" />
+        </StackLayout>
+    </Grid>
+</ContentPage>
